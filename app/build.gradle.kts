@@ -62,6 +62,7 @@ dependencies {
     implementation(libs.junit.junit)
     implementation(libs.junit.jupiter)
     implementation(libs.junit.junit)
+    implementation(libs.androidx.ui.test.junit4.android)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
@@ -69,7 +70,8 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
-
+    //test
     testImplementation("junit:junit:4.13.2")
+    androidTestImplementation ("androidx.compose.ui:ui-test-junit4:1.5.1")
 
 }
